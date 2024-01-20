@@ -1,7 +1,6 @@
 server:
   port: 8090
 
-
 management:
    security:
       enabled: false
@@ -21,17 +20,17 @@ eureka:
 spring:
   application:
    name: api-gateway
-   cloud:
+  cloud:
     gateway:
      routes:
-      - id: user-management
-        uri: lb://user-management
-        predicates:
-          - Path: /users/**
-      - id: merchant-management
-        uri: lb://merchant-management
-        predicates:
-          - Path: /merchants/**
+     - id: user-management
+       uri: lb://user-management
+       predicates:
+        - Path=/users/**
+     - id: merchant-management
+       uri: lb://merchant-management
+       predicates:
+        - Path=/merchants/**
 
 
   
