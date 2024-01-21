@@ -1,4 +1,4 @@
-# Spring cloud demo for beginners - service discovery, API gateway, service to service API calls using feign client<br>
+# Spring cloud microservices demo for beginners - service discovery, API gateway, service to service API calls using feign client<br>
 
 ### Links   
   Refer guides here <https://Spring.io> <br>
