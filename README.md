@@ -1,4 +1,8 @@
-# Spring cloud demo for service discovery, API gateway, service to service API calls using feign client<br>
+# Spring cloud demo for beginners - service discovery, API gateway, service to service API calls using feign client<br>
+
+### Links   
+  Refer guides here <https://Spring.io> 
+  Tool to generate spring projects <https://start.spring.io>  
 
 ## Clone below projects and import as existing maven projects in to STS/eclipse and Run projects in the below order  
 1) Discovery(Serviceregistry) - <https://github.com/sunilsp54/discovery>  
